@@ -97,7 +97,7 @@ TEST(TVector, can_assign_vector_to_itself)
 {
 	TVector<int> v1(5);
 
-	ASSERT_NO_THROW(v1 = v1;);
+	ASSERT_NO_THROW(v1 = v1);
 }
 
 TEST(TVector, can_assign_vectors_of_equal_size)
@@ -105,7 +105,7 @@ TEST(TVector, can_assign_vectors_of_equal_size)
 	TVector<int> v1(5);
 	TVector<int> v2(5);
 
-	ASSERT_NO_THROW(v2 = v1;);
+	ASSERT_NO_THROW(v2 = v1);
 }
 
 TEST(TVector, assign_operator_change_vector_size)
@@ -122,7 +122,7 @@ TEST(TVector, can_assign_vectors_of_different_size)
 	TVector<int> v1(5);
 	TVector<int> v2(3);
 
-	ASSERT_NO_THROW(v2 = v1;);
+	ASSERT_NO_THROW(v2 = v1);
 }
 
 TEST(TVector, compare_equal_vectors_return_true)
